@@ -1,5 +1,7 @@
 {
   "name": "agrant-pitch",
+  "main": "worker.js",
   "compatibility_date": "2026-11-07",
-  "assets": { "directory": ".", "not_found_handling": "404-page" }
+  // презентация и PDF — статика; /tg, /plan, /setup обрабатывает worker.js
+  "assets": { "directory": "." }
 }
